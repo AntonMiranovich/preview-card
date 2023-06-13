@@ -6,6 +6,11 @@
         url(./fonts/Mulish-Regular.ttf) format(truetype);
 }
 
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/Poppins-Medium.ttf) format(truetype);
+}
+
 * {
     font-family: "Mulish";
     margin: 0;
@@ -204,4 +209,75 @@ main {
     color: #4F596A;
     margin: 20px 0 0 20px;
     width: 960px;
+}
+
+.advantages .pros:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.sign {
+    margin-top: 122px;
+}
+
+.sign .logo-hs {
+    background-image: url(./assets/Marico.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 190px;
+    height: 85px;
+    margin-left: 550px;
+    margin-bottom: 30px;
+}
+
+.sign .up {
+    text-align: center;
+    margin-bottom: 30px;
+    font: 800 50px 'Mulish';
+    color: #001A49;
+}
+
+.sign .button-1 {
+    background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+    border-radius: 33px;
+    width: 206px;
+    font: 700 16px 'Mulish';
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+}
+
+footer {
+    margin-top: 129px;
+}
+
+.small {
+    background-image: url(./assets/Marico.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 79px;
+    height: 56px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hs {
+    font: 800 37px 'Mulish';
+    color: #001A49;
+    display: flex;
+    align-items: center;
+}
+
+.off {
+    font: 500 28px 'Poppins';
+    color: #707070;
+}
+
+.email {
+    font: 500 27px 'Mulish';
+    color: #707070;
+    margin-bottom: 85px;
 }
