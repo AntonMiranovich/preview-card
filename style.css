@@ -151,3 +151,57 @@ main {
     left: 200px;
     z-index: 0;
 }
+
+.advantages {
+    margin-top: 194px;
+}
+
+.h1 {
+    font: 800 46px 'Mulish';
+    color: #001A49;
+    width: 637px;
+    height: 69px;
+    margin: 0 389px 0 414px;
+}
+
+.p {
+    font: 400 20px 'Mulish';
+    color: #4F596A;
+    width: 560px;
+    height: 60px;
+    margin: 0 444px 0 436px;
+    text-align: center;
+    margin-bottom: 61px;
+}
+
+.advantages .pros {
+    background: #EEF7FF;
+    mix-blend-mode: normal;
+    border-radius: 21px;
+    width: 1120px;
+    height: 172px;
+    display: flex;
+
+}
+
+.advantages .pros .logo {
+    background-image: url(./assets/logotip.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 64px;
+    height: 64px;
+    margin: 39px 0 0 46px;
+}
+
+.advantages .pros .description h2 {
+    font: 800 24px 'Mulish';
+    color: #001A49;
+    margin: 39px 0 0 20px;
+}
+
+.advantages .pros .description p {
+    font: 400 16px 'Mulish';
+    color: #4F596A;
+    margin: 20px 0 0 20px;
+    width: 960px;
+}
