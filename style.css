@@ -29,6 +29,7 @@ header {
     justify-content: space-between;
     padding: 37px 0;
     align-items: center;
+    width: 1200px;
 }
 
 header nav {
@@ -41,6 +42,7 @@ header nav {
     height: 38px;
     background-repeat: no-repeat;
     background-size: contain;
+    max-width: 90%;
 }
 
 header nav p {
@@ -172,8 +174,6 @@ main {
 .p {
     font: 400 20px 'Mulish';
     color: #4F596A;
-    width: 560px;
-    height: 60px;
     margin: 0 444px 0 436px;
     text-align: center;
     margin-bottom: 61px;
@@ -208,7 +208,6 @@ main {
     font: 400 16px 'Mulish';
     color: #4F596A;
     margin: 20px 0 0 20px;
-    width: 960px;
 }
 
 .advantages .pros:not(:last-child) {
@@ -280,4 +279,127 @@ footer div {
     font: 500 27px 'Mulish';
     color: #707070;
     margin-bottom: 85px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    main {
+        margin-top: 50px;
+    }
+
+    .intproductory .video {
+        display: none;
+    }
+
+    .intproductory h1 {
+        font: 400 30px 'Mulish';
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .intproductory p {
+        font: 200 10px 'Mulish';
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .intproductory div .button {
+        width: 170px;
+        margin: auto;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .statistic .oval {
+        display: none;
+    }
+
+    .statistic {
+        margin-top: 70px;
+    }
+
+    .statistic .info {
+        flex-direction: column;
+        align-items: center;
+        background-color: #F5F5F5;
+        border-width: 0;
+    }
+
+    .info div:not(:last-child) {
+        border-width: 0;
+    }
+
+    .advantages .pros {
+        width: 600px;
+    }
+
+    .advantages {
+        width: 600px;
+        margin-top: 70px;
+    }
+
+    .advantages .h1 {
+        width: 600px;
+        font: 400 30px 'Mulish';
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .advantages .p {
+        font: 200 20px 'Mulish';
+        width: 100%;
+        margin: auto;
+    }
+
+    .pros .description h2 {
+        text-align: center;
+    }
+
+    .pros .description p {
+        text-align: center;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .sign .logo-hs {
+        display: none;
+    }
+
+    .small {
+        display: none;
+    }
+
+    .hs {
+        display: none;
+    }
+
+    .email {
+        font: 500 20px 'Mulish';
+        text-align: center;
+    }
+
+    footer div {
+        justify-content: center;
+    }
 }
