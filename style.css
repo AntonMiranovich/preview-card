@@ -114,6 +114,10 @@ main {
 }
 
 .info {
+    position: relative;
+}
+
+.info-text {
     display: flex;
     background: #FFFFFF;
     border: 1px solid #E7EAEB;
@@ -121,16 +125,19 @@ main {
     width: 100%;
     height: 172px;
     align-items: center;
-    justify-content: space-around;
-    position: relative;
-    z-index: 1;
+    justify-content: space-around; 
+    position: relative
+}
+
+.info-text {
+    z-index: 2;
 }
 
 .info div:not(:last-child) {
     border-right: 1px solid #E7EAEB;
 }
 
-.info div {
+.info-text div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,12 +145,12 @@ main {
     width: 400px;
 }
 
-.info div p {
+.info-text div p {
     font: 400 16px 'Mulish';
     color: #4F596A;
 }
 
-.info div h2 {
+.info-text div h2 {
     font: 800 40px 'Mulish';
     color: #001A49;
 }
@@ -155,8 +162,9 @@ main {
     width: 288px;
     height: 288px;
     position: absolute;
-    left: 200px;
-    z-index: 0;
+    left: -50px;
+    top: -25px;
+    z-index: 1;
 }
 
 .advantages {
