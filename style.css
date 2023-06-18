@@ -192,7 +192,7 @@ main {
     mix-blend-mode: normal;
     border-radius: 21px;
     width: 1120px;
-    height: 172px;
+    padding-bottom: 40px;
     display: flex;
 
 }
@@ -347,16 +347,16 @@ footer div {
         border-width: 0;
     }
 
-    .info div:not(:last-child) {
+    .info-text div:not(:last-child) {
         border-width: 0;
     }
 
     .advantages .pros {
-        width: 600px;
+        width: 100%
     }
 
     .advantages {
-        width: 600px;
+        width: 100%;
         margin-top: 70px;
     }
 
